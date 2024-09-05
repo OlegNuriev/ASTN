@@ -22,7 +22,6 @@ public class PhoneDirectory {
         // Добавляем номер в список для данной фамилии
         directory.get(surname).add(phoneNumber);
     }
-
     // Метод get возвращает список номеров по фамилии
     public List<String> get(String surname) {
         // Если фамилия найдена, возвращаем список номеров
